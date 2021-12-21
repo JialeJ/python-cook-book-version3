@@ -11,11 +11,12 @@
 p = [3, 4]
 
 a, b = p
-
+print(a)
+print(b)
 
 ### 如果变量个数和序列元素的个数不匹配，会产生一个异常。
->>> p = (4, 5)
->>> x, y, z = p
-Traceback (most recent call last):
-File "<stdin>", line 1, in <module>
-ValueError: need more than 2 values to unpack
+p = (4, 5)
+x, y, z = p
+# Traceback (most recent call last):
+# File "<stdin>", line 1, in <module>
+# ValueError: need more than 2 values to unpack
