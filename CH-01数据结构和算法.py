@@ -1,3 +1,7 @@
+"""
+url: https://www.w3cschool.cn/youshq/j2o8nozt.html
+"""
+
 ## 问题1
 
 ### 现在有一个包含N个元素的元组或者是序列，怎样将它里面的值解压后同时赋值给N个变量？
