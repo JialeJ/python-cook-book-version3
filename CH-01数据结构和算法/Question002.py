@@ -31,8 +31,9 @@ for i in range(len(tb)):
 
 """星号表达式在迭代元素为可变长元组的序列时是很有用的"""
 
-星号解压语法在字符串操作的时候也会很有用，比如字符串的分割。
+
 """
+星号解压语法在字符串操作的时候也会很有用，比如字符串的分割。
 >>> line = 'nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false'
 >>> uname, *fields, homedir, sh = line.split(':')
 >>> uname
