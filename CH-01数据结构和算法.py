@@ -20,3 +20,10 @@ x, y, z = p
 # Traceback (most recent call last):
 # File "<stdin>", line 1, in <module>
 # ValueError: need more than 2 values to unpack
+
+### 解压序列用于字典时，默认是对“key”进行操作；如果需要对key-value进行操作则需要使用items; 如果需要对 value 进行操作，则需要values（）
+
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+a, b, c = dict1 # 返回keys
+a, b, c = dict1.items() #返回键值对
+a, b, c = dict1.values() #返回values
